@@ -1,0 +1,26 @@
+{
+  "name": "basic-http-class-example",
+  "version": "1.0.0",
+  "description": "Basic HTTP Server",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Test Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tanuki3017/basic-http-class-example.git"
+  },
+  "author": "Zach Selsley",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Tanuki3017/basic-http-class-example/issues"
+  },
+  "homepage": "https://github.com/Tanuki3017/basic-http-class-example#readme",
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
